@@ -1,0 +1,18 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: none;
+}
+
+.login-page .content {
+  background: #fff;
+  width: 600px;
+  padding: 64px;
+  transform: translateY(-200px);
+}
+
+.login-page h1 {
+  text-align: center;
+}

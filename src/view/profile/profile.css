@@ -1,0 +1,10 @@
+.panel {
+  display: flex;
+  padding: 16px;
+  background: #fff;
+}
+
+.panel .left,
+.panel .right {
+  flex: 1;
+}

@@ -1,0 +1,16 @@
+.c-book {
+  display: flex;
+  width: 300px;
+  margin: 0 8px 8px 0;
+}
+
+.c-book .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.c-book .title:hover {
+  cursor: pointer;
+  color: rgb(133, 196, 190);
+}

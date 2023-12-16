@@ -1,0 +1,9 @@
+.cart-list {
+  background-color: #fff;
+  padding: 16px;
+}
+
+.cart-item {
+  display: flex;
+  margin-bottom: 8px;
+}

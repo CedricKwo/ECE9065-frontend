@@ -1,0 +1,43 @@
+.index-page {
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .index-page {
+    flex-wrap: wrap;
+  }
+}
+
+.index-page .left {
+  width: 100%;
+  padding: 16px;
+  background: #fff;
+}
+
+.book {
+  margin: 0 16px 16px 0;
+  cursor: pointer;
+}
+
+.book img {
+  width: 150px;
+  height: 150px;
+}
+
+.book .name {
+  font-size: 16px;
+}
+
+.book .singer {
+  color: #ccc;
+  font-size: 12px;
+}
+
+.book p {
+  margin: 8px 0 0;
+}
+
+.book-search {
+  display: flex;
+  flex-wrap: wrap;
+}

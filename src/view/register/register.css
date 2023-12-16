@@ -1,0 +1,9 @@
+.reg-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reg-page .content {
+  width: 800px;
+}
