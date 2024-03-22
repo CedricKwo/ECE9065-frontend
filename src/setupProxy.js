@@ -4,7 +4,7 @@ module.exports = function(app) {
   app.use(
     '/api',
     createProxyMiddleware({
-      target: 'http://99.79.51.184:3000', // Set the address of the target service you want to proxy
+      target: 'http://bookstore-backend-service.default.svc.cluster.local:3000', // Set the address of the target service you want to proxy
       changeOrigin: true,
     })
   );
